@@ -1,0 +1,6 @@
+{
+    "name": "@wildboar/iso3166",
+    "version": "1.0.0",
+    "license": "MIT",
+    "exports": "./index.mts"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test:node": "node --test lib.node.spec.mts",
+    "test:deno": "deno test lib.deno.spec.mts",
+    "test:bun": "bun test lib.node.spec.mts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.0"
+  }
+}
