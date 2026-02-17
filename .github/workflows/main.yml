@@ -46,6 +46,6 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: "lts"
+          node-version: "lts/*"
       - name: Publish package
         run: npx jsr publish
