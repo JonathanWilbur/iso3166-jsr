@@ -47,5 +47,6 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: "lts/*"
+          check-latest: true
       - name: Publish package
         run: npx jsr publish

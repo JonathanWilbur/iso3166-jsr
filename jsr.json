@@ -1,6 +1,18 @@
 {
     "name": "@wildboar/iso3166",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
-    "exports": "./index.mts"
+    "exports": "./index.mts",
+    "publish": {
+        "include": [
+            "LICENSE.txt",
+            "README.md",
+            "**.mts"
+        ],
+        "exclude": [
+            "**.spec.mts",
+            "**.mjs",
+            "**.js"
+        ]
+    }
 }
